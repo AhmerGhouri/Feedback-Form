@@ -1,0 +1,616 @@
+body{
+
+    background-image: url('./images/19366.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.headerDiv{
+
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.mainheading{
+
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 500;
+    color: #d01c24;    
+
+}
+
+.img{
+
+    width: 250px;
+
+}
+
+/* =----------------------------------------------------------------------------------------- */
+
+
+.data{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 40px;
+
+}
+
+
+
+.box{
+
+    width: 100%;
+    
+    
+
+}
+
+
+.form{
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: transparent !important;
+    margin: 10px 50px 0px 50px;
+    border: 1px solid white;
+    box-shadow: 4px 2px 12px 0px black;
+    border-radius: 4px;
+    width: 40%;
+    border: 1px solid #013777;
+
+
+
+
+}
+
+.form:hover{
+
+    border: 1px solid #d01c24;
+}
+
+
+.panel1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: black;
+    font-size: 1.2rem;
+
+
+}
+
+.panel2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+
+.form-control {
+
+
+    display: flex;
+    width: 100%;
+    height: calc(4.25rem + 3px) !important;
+    background-color: white !important;
+    border: 0px !important;
+    font-size: 1.4rem !important;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid white !important;
+    border-radius: 0.25rem;
+    box-shadow: lightgray 0.5px 0.5px 8px 0.5px !important;
+    transition: border-color white .15s ease-in-out,box-shadow .15s ease-in-out !important;
+    width: 100%;
+    padding-left: 54px !important;
+    text-align: left !important;
+    
+}
+
+
+
+.input-icons i {
+
+    position: absolute;
+
+}
+
+
+  
+.input-icons {
+
+
+    width: 100%;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+label{
+
+    font-weight: 400 !important;
+    font-size: 14px;
+    font-family: 'Poppins';
+
+}
+
+
+  
+.icon {
+
+    padding: 16px;
+    min-width: 50px;
+    border-right: 1px solid lightgray;
+    font-size: larger;
+    color: #d01c24;
+
+}
+
+
+.btn{
+
+    padding: 8px 25px 8px 25px !important;
+    font-size: 15px !important;
+    font-family: 'Poppins';
+    background-color : #d01c24 !important;
+    border: #013777 1px solid;
+
+
+}
+
+.btn:hover{
+
+    padding: 8px 25px 8px 25px;
+    font-size: 15px !important;
+    font-family: 'Poppins';
+    background-color : #013777 !important;
+    border: #d01c24 1px solid !important;
+
+
+}
+
+
+.tableDiv{
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 50px; */
+    justify-content: center;
+    text-align: center;
+    margin-top: -8px;
+
+
+
+}
+
+
+.table{
+
+
+    width: 70% !important;
+    /* margin-top: 20px; */
+    border: 1px solid #013777;
+    border-radius: 4px !important;
+    background-color: white !important;
+    visibility: hidden;
+
+
+}
+
+
+.table tbody tr th td{
+
+    padding: 26px !important;
+    line-height: 50px;
+
+
+}
+
+
+th{
+
+    text-align: center !important;
+    font-family: 'Poppins';
+    font-size: 18px !important;
+    color: #d01c24;
+
+
+}
+
+
+
+td{
+
+    font-size: 1.5em;
+    font-family: 'Poppins';
+    text-align: center;
+    color: #013777;
+    font-weight: 500;
+    vertical-align: middle !important;
+    /* width: 1% !important; */
+
+
+}
+
+
+.mr{
+
+
+    width: 50% !important;
+
+
+}
+
+
+tr{
+
+    height: 50px;
+    border: 1px solid #013777 !important;
+    background-color: white !important;
+
+}
+
+
+.down{
+
+    width: 0px;
+
+}
+
+
+.quizAppBox{
+
+
+    /* display: none !important; */
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    display: none;
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+
+
+
+}
+
+.quizAppBoxAfter{
+
+
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: none;
+    width: 100%;
+    padding: 50px;
+    justify-content: center;
+    /* animation: circle var(--circle-animation-time) forwards; */
+
+
+
+
+}
+
+/* 
+.quizAppBoxAfter::after {
+
+    content: "" ;
+    display: flex;     
+
+} */
+
+
+.questionDiv{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 300;
+
+}
+
+.answerDiv{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 50px;
+
+}
+
+.btnDiv{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.question{
+
+    font-family: 'Poppins';
+    font-size: 20px;
+
+}
+
+#label0 , #label1 , #label2 , #label3{
+
+
+    padding-left: 5px;
+    
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+
+}
+
+
+.next{
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 400;
+    border: #d01c24 1px solid;
+    color: #d01c24;
+    background-color: transparent;
+
+}
+
+.next:hover{
+
+    background-color: #d01c24;
+    color: white;
+    border: 1px solid #013777;
+
+}
+
+
+
+@keyframes slide-down {
+
+    0% {
+
+        /* max-height: 180px; */
+        top: -100%;
+        left: -100;
+        opacity: 0;
+        /* width: 10%; */
+
+    }
+
+    100% {
+
+        /* max-height: 180px; */
+        top: -50%;
+        left: -50%;
+        /* width: 100%; */
+        opacity: 1;
+
+    }
+
+}
+
+
+.inner{
+
+
+    /* height: 380px; */
+    animation-duration: 2s;
+    animation-name: slide-down;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width : 200px) and (max-width : 576px){
+
+
+    .form{
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+        margin: 10px 30px 10px 30px;
+        border: 1px solid white;
+        box-shadow: 4px 2px 12px 0px black;
+        border-radius: 4px;
+        width: 100%;
+        border: 1px solid #013777;
+    
+    
+    
+    
+    }
+
+    .form:hover{
+
+        border: 1px solid #d01c24;
+    }
+    
+
+
+    .col-md-8 {
+
+        width: 80% !important;
+
+
+    }
+
+    .table{
+
+        overflow-x: scroll;
+
+    }
+
+
+}
+
+
+
+@media (min-width : 576px) and (max-width : 768px){
+
+
+    .form{
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+        margin: 10px 30px 10px 30px;
+        border: 1px solid white;
+        box-shadow: 4px 2px 12px 0px black;
+        border-radius: 4px;
+        width: 100%;
+        border: 1px solid #013777;
+    
+    
+    
+    
+    }
+    
+    .form:hover{
+
+        border: 1px solid #d01c24;
+    }
+    
+
+
+    .col-md-8 {
+
+        width: 80% !important;
+
+
+    }
+
+    
+    .table{
+
+        overflow-x: scroll;
+
+    }
+
+
+}
+
+
+
+@media (min-width : 768px) and (max-width : 900px){
+
+
+    .form{
+
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: white;
+        margin: 10px 50px 10px 50px;
+        border: 1px solid white;
+        box-shadow: 4px 2px 12px 0px black;
+        border-radius: 4px;
+        width: 100%;
+        border: 1px solid #013777;
+    
+    
+    
+    
+    }
+    
+    .form:hover{
+
+        border: 1px solid #d01c24;
+    }
+    
+
+
+    .col-md-8 {
+
+        width: 80% !important;
+
+
+    }
+
+    .table{
+
+        width: 100% !important;
+
+    }
+
+
+}
